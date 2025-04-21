@@ -9,5 +9,5 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu
     steps:
-      - run: echo "🎉 The job was triggered by a ${{ github.event_name }} event."
+      - run: echo "🎉 The job was by a ${{ github.event_name }} event."
       
