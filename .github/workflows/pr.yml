@@ -4,10 +4,9 @@ on:
   pull_request:
     # Sequence of patterns matched against refs/heads
     branches:
-      - aya
+      - main
 jobs:
-  Explore-GitHub-Actions:
-    runs-on: ubuntu
+  Explore-PR-Actions:
+    runs-on: ubuntu-latest
     steps:
-      - run: echo "🎉 The job was by a ${{ github.event_name }} event."
-      
+      - run: echo "🎉 The job was triggered by a ${{ github.event_name }} event."      
