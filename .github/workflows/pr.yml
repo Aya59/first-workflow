@@ -7,7 +7,7 @@ on:
       - aya
 jobs:
   Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu
     steps:
       - run: echo "🎉 The job was triggered by a ${{ github.event_name }} event."
       
