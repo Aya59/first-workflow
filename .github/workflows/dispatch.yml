@@ -22,20 +22,7 @@ on:
         description: 'Environment to run tests against'
         type: string
         required: true
-      x:
-        description: "x desc"
-      y:
-        description: "y desc"
-      z:
-        description: "y desc"
-      f:
-        description: "y desc"
-      g:
-        description: "y desc"
-      j:
-        description: "y desc"
-      l:
-        description: 'l desc'
+
         
 
 jobs:
